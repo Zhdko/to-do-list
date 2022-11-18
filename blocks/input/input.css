@@ -1,0 +1,11 @@
+.input {
+  color: inherit;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.input:focus {
+  outline: none;
+}

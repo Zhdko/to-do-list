@@ -1,0 +1,10 @@
+.add-tasks {
+  display: flex;
+  border: none;
+  background-color: rgb(8%, 14%, 14%, 0.3);
+  backdrop-filter: blur(200px);
+  margin: 0;
+  padding:10px 10px 10px 30px;
+  justify-content: space-between;
+  border-radius: 30px;
+}

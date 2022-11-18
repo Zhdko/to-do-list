@@ -1,0 +1,8 @@
+.avatar {
+  max-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
+  border: 1px solid #FFF4ED;
+  position: relative;
+  box-sizing: border-box;
+}

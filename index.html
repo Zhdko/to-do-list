@@ -7,8 +7,7 @@
   <title>Beggin</title>
   <link rel="stylesheet" href="./page/index.css">
 </head>
-<body class="page">
-  <div class="blur"></div>
+<body class="background">
   <ul class="balls list">
     <li class="ball ball_color_bege ball_size_s"></li>
     <li class="ball ball_color_peach ball_size_m"></li>
@@ -17,5 +16,52 @@
     <li class="ball ball_color_bordo ball_size_m"></li>
     <li class="ball ball_color_bordo ball_size_s"></li>
   </ul>
+  <div class="page">
+    <header class="header">
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <div class="avatar avatar_place_header">
+        <img src="./image/avatar.jpg" alt="Profile photo." class="avatar__image">
+        <div class="avatar__online"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title-container">
+        <h1 class="title">Daily</h1>
+        <button class="btn btn_action_edit"></button>
+      </div>
+      <fieldset class="add-tasks">
+        <input type="text" placeholder="add new task" class="input add-tasks__input">
+        <button class="btn btn_action_add"></button>
+      </fieldset>
+      <ul class="filters list">
+        <li class="filter">
+          <p class="filter__name">to do</p>
+          <input type="checkbox" class="filter_option_to-do">
+        </li>
+        <li class="filter">
+          <p class="filter__name">completed</p>
+          <input type="checkbox" class="filter_option_completed">
+        </li>
+      </ul>
+      <ul class="tasks list">
+        <li class="tasks__item">
+          <h2 class="tasks__title">Сlean the apartment</h2>
+          <input type="checkbox" name="" id="">
+          <div class="tasks__container">
+            <p class="tasks__subtitle">date</p>
+            <p class="tasks__date">11.10.2022</p>
+          </div>
+          <div class="tasks__container">
+            <p class="tasks__subtitle">time</p>
+            <p class="tasks__time">6:30 am</p>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

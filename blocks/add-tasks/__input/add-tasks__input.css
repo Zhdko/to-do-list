@@ -1,0 +1,13 @@
+.add-tasks__input {
+  font-family: 'Blogger-sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 1;
+}
+
+.add-tasks__input::placeholder {
+  font-size: 16px;
+  text-transform: uppercase;
+}

@@ -1,3 +1,35 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/background/background.css);
 @import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/avatar/avatar.css);
+@import url(../blocks/avatar/_place/avatar_place_header.css);
+@import url(../blocks/avatar/__image/avatar__image.css);
+@import url(../blocks/avatar/__online/avatar__online.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/title-container/title-container.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_action/btn_action_add.css);
+@import url(../blocks/btn/_action/btn_action_edit.css);
+@import url(../blocks/add-tasks/add-tasks.css);
+@import url(../blocks/add-tasks/__input/add-tasks__input.css);
+@import url(../blocks/input/input.css);
+@import url(../blocks/filters/filters.css);
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/filter/_option/filter_option_completed.css);
+@import url(../blocks/filter/_option/filter_option_to-do.css);
+@import url(../blocks/filter/__name/filter__name.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/tasks/tasks.css);
+@import url(../blocks/tasks/__container/tasks__container.css);
+@import url(../blocks/tasks/__item/tasks__item.css);
+@import url(../blocks/tasks/__date/tasks__date.css);
+@import url(../blocks/tasks/__subtitle/tasks__subtitle.css);
+@import url(../blocks/tasks/__time/tasks__time.css);
+@import url(../blocks/tasks/__title/tasks__title.css);

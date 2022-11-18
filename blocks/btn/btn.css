@@ -1,0 +1,9 @@
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  border: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
