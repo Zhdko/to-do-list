@@ -36,16 +36,16 @@
 }
 
 .ball_size_s {
-  width: 44%;
-  padding-bottom: 44%;
+  width: 50%;
+  padding-bottom: 50%;
 }
 .ball_size_m {
-  width: 60%;
-  padding-bottom: 60%;
+  width: 70%;
+  padding-bottom: 70%;
 }
 .ball_size_l {
-  width: 80%;
-  padding-bottom: 80%;
+  width: 90%;
+  padding-bottom: 90%;
 }
 
 .ball_color_bege {
@@ -81,6 +81,7 @@
 .ball:nth-child(5) {
   right: 5%;
   top: 10%;
+  z-index: -2;
   animation: trans-right-down 20s ease-in-out infinite;
 }
 .ball:nth-child(6) {
@@ -131,10 +132,10 @@
     transform: translate(0, 0);
   }
   25% {
-    transform: translate(-90%, 220%);
+    transform: translate(-90%, 100%);
   }
   50% {
-    transform: translate(0% 170%);
+    transform: translate(0%, 20%);
   }
   75% {
     transform: translate(-100%, 30%);
@@ -148,13 +149,13 @@
     transform: translate(0, 0);
   }
   25% {
-    transform: translate(-60%, -180%);
+    transform: translate(-20%, -100%);
   }
   50% {
     transform: translate(-10%, -150%);
   }
   75% {
-    transform: translate(-100%, 40%);
+    transform: translate(-30%, 10%);
   }
   100% {
     transform: translate( 0, 0);
