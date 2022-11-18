@@ -1,0 +1,8 @@
+.filters {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 0 16px;
+}

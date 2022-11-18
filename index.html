@@ -35,27 +35,32 @@
         <input type="text" placeholder="add new task" class="input add-tasks__input">
         <button class="btn btn_action_add"></button>
       </fieldset>
-      <ul class="filters list">
+      <ul class="list filters">
         <li class="filter">
           <p class="filter__name">to do</p>
-          <input type="checkbox" class="filter_option_to-do">
+          <input type="checkbox" class="checkbox" id="filter-to-do" name="filter-to-do" value="yes">
+          <label for="filter-to-do"></label>
         </li>
         <li class="filter">
           <p class="filter__name">completed</p>
-          <input type="checkbox" class="filter_option_completed">
+          <input type="checkbox" class="checkbox" id="filter-checked" name="filter-to-do" value="yes">
+          <label for="filter-checked"></label>
         </li>
       </ul>
       <ul class="tasks list">
         <li class="tasks__item">
           <h2 class="tasks__title">Сlean the apartment</h2>
-          <input type="checkbox" name="" id="">
+          <label for="toggle" class="toggle">
+            <span class="toggle__switch"></span>
+            <input type="checkbox" class="toggle__checkbox" id="toggle" name="toggle" value="yes">
+          </label>
           <div class="tasks__container">
             <p class="tasks__subtitle">date</p>
-            <p class="tasks__date">11.10.2022</p>
+            <p class="tasks__property tasks__date">11.10.2022</p>
           </div>
           <div class="tasks__container">
             <p class="tasks__subtitle">time</p>
-            <p class="tasks__time">6:30 am</p>
+            <p class="tasks__property tasks__time">6:30 am</p>
           </div>
         </li>
       </ul>
