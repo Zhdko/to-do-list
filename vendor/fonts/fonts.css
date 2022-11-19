@@ -2,6 +2,7 @@
   font-family: "Blogger-sans";
   src: url(./bloggersans-medium-webfont.woff) format("woff");
   src: url(./bloggersans-medium-webfont.woff2) format("woff2");
+  src: url(./BloggerSans-Medium.ttf) format("truetype");
   font-style: normal;
   font-weight: 500;
 }
@@ -9,6 +10,7 @@
   font-family: "Blogger-sans";
   src: url(./bloggersans-bold-webfont.woff) format("woff");
   src: url(./bloggersans-bold-webfont.woff2) format("woff2");
+  src: url(./BloggerSans-Bold.ttf) format("truetype");
   font-style: normal;
   font-weight: 700;
 }
