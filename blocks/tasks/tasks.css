@@ -2,7 +2,8 @@
   display: grid;
   width: 100%;
   max-width: 730px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 355px));
   gap: 20px;
-  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center;
 }

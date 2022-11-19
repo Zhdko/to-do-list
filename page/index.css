@@ -32,6 +32,8 @@
 @import url(../blocks/tasks/__item/tasks__item.css);
 @import url(../blocks/toggle/toggle.css);
 @import url(../blocks/tasks/__property/tasks__propert.css);
+@import url(../blocks/tasks/__header/tasks__header.css);
+@import url(../blocks/tasks/__point/tasks__point.css);
 @import url(../blocks/tasks/__date/tasks__date.css);
 @import url(../blocks/tasks/__subtitle/tasks__subtitle.css);
 @import url(../blocks/tasks/__time/tasks__time.css);

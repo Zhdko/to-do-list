@@ -1,11 +1,11 @@
 .tasks__item {
-  display: grid;
+  display: flex;
   padding: 15px 20px 20px;
   box-sizing: border-box;
-  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
   justify-content: space-between;
   background-color: rgb(8%, 14%, 14%, 0.3);
   border-radius: 8px;
   backdrop-filter: blur(50px);
-  row-gap: 20px;
+  gap: 20px;
 }
