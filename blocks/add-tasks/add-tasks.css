@@ -1,10 +1,15 @@
 .add-tasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border: none;
   background-color: rgb(8%, 14%, 14%, 0.3);
-  backdrop-filter: blur(200px);
+  -webkit-backdrop-filter: blur(200px);
+          backdrop-filter: blur(200px);
   margin: 0 0 15px;
   padding:10px 10px 10px 30px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-radius: 30px;
 }

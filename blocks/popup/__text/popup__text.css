@@ -17,6 +17,16 @@
   outline: none;
 }
 
+.popup__text:-moz-placeholder-shown {
+  text-transform: uppercase;
+  color: #BFB5AF;
+}
+
+.popup__text:-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #BFB5AF;
+}
+
 .popup__text:placeholder-shown {
   text-transform: uppercase;
   color: #BFB5AF;

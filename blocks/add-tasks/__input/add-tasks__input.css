@@ -6,6 +6,26 @@
   line-height: 1;
 }
 
+.add-tasks__input::-webkit-input-placeholder {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.add-tasks__input::-moz-placeholder {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.add-tasks__input:-ms-input-placeholder {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.add-tasks__input::-ms-input-placeholder {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 .add-tasks__input::placeholder {
   font-size: 16px;
   text-transform: uppercase;

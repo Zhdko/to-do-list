@@ -4,5 +4,6 @@
   border-radius: 50%;
   border: 1px solid #FFF4ED;
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }

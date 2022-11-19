@@ -28,3 +28,7 @@ function togglePopup() {
 addTask.addEventListener('click', togglePopup);
 closeButton.addEventListener('click', togglePopup);
 
+let tasksContainer = document.querySelector('.tasks');
+let addButton = document.querySelector('.form__submit-btn_action_add');
+let submitButton = document.querySelector('.btn_action_submit')
+
