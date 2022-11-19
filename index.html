@@ -29,7 +29,7 @@
     <main class="main">
       <div class="title-container">
         <h1 class="title">Daily</h1>
-        <button class="btn btn_action_edit"></button>
+        <button type="button" class="btn btn_action_edit"></button>
       </div>
       <fieldset class="add-tasks">
         <input type="text" placeholder="add new task" class="input add-tasks__input">
@@ -120,11 +120,25 @@
             </div>
             <div class="tasks__container">
               <p class="tasks__subtitle">time</p>
-              <p class="tasks__property tasks__time">6:30 am</p>
+              <p class="tasks__property tasks__time">18:30</p>
             </div>
           </div>
         </li>
       </ul>
+      <div class="popup popup_action_add">
+        <div class="popup__container">
+          <button type="button" class="btn btn_action_close"></button>
+          <h2 class="popup__title">task</h2>
+          <form name="edit-form" class="popup__form">
+            <fieldset class="popup__input-container">
+              <input type="text" name="task-name" class="popup__text popup__text_type_task" placeholder="task name">
+              <input type="text" name="date" class="popup__text popup__text_type_date mask-date" placeholder="mm.dd.yyyy">
+              <input type="text" name="time" class="popup__text popup__text_type_time mask-time" placeholder="hh:mm">
+            </fieldset>
+            <button class="btn popup__btn btn_action_submit" type="submit">add</button>
+          </form>
+        </div>
+      </div>
     </main>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

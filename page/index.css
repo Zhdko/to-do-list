@@ -12,12 +12,15 @@
 @import url(../blocks/avatar/__image/avatar__image.css);
 @import url(../blocks/avatar/__online/avatar__online.css);
 
-@import url(../blocks/main/main.css);
-@import url(../blocks/title-container/title-container.css);
-@import url(../blocks/title/title.css);
+/* buttuns */
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/_action/btn_action_add.css);
 @import url(../blocks/btn/_action/btn_action_edit.css);
+@import url(../blocks/btn/_action/btn_action_close.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/title-container/title-container.css);
+@import url(../blocks/title/title.css);
 @import url(../blocks/add-tasks/add-tasks.css);
 @import url(../blocks/add-tasks/__input/add-tasks__input.css);
 @import url(../blocks/checkbox/checkbox.css);
@@ -38,3 +41,17 @@
 @import url(../blocks/tasks/__subtitle/tasks__subtitle.css);
 @import url(../blocks/tasks/__time/tasks__time.css);
 @import url(../blocks/tasks/__title/tasks__title.css);
+
+/* popup-add */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_action/popup_action_add.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__input-container/popup__input-container.css);
+@import url(../blocks/popup/__text/__type/popup__text_type_date.css);
+@import url(../blocks/popup/__text/__type/popup__text_type_task.css);
+@import url(../blocks/popup/__text/__type/popup__text_type_time.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__btn/popup__btn.css);
+@import url(../blocks/popup/_opened/popup_opened.css);

@@ -1,0 +1,9 @@
+.popup__title {
+  font-family: 'Blogger Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 50px 0 40px;
+}

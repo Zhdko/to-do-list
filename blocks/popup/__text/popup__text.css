@@ -1,0 +1,23 @@
+.popup__text {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #2D2E31;
+  font-family: 'Blogger Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  color: #FFF4ED;
+  padding: 10px 0 10px 20px;
+  border-radius: 8px;
+}
+
+.popup__text:focus {
+  outline: none;
+}
+
+.popup__text:placeholder-shown {
+  text-transform: uppercase;
+  color: #BFB5AF;
+}

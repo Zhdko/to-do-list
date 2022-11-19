@@ -1,0 +1,9 @@
+.btn_action_close {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../image/close.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+margin-left: 10px;
+}
