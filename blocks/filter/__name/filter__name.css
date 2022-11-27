@@ -1,11 +1,9 @@
 .filter__name {
   margin: 0;
-  font-family: 'Blogger-sans', Arial, sans-serif;
+  font-family: 'Dosis', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   text-transform: uppercase;
-  position: relative;
-  top: 2px;
 }

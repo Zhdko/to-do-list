@@ -1,5 +1,5 @@
 .add-tasks__input {
-  font-family: 'Blogger-sans', Arial, sans-serif;
+  font-family: 'Dosis', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -21,12 +21,3 @@
   text-transform: uppercase;
 }
 
-.add-tasks__input::-ms-input-placeholder {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.add-tasks__input::placeholder {
-  font-size: 16px;
-  text-transform: uppercase;
-}

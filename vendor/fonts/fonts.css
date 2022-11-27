@@ -14,3 +14,21 @@
   font-style: normal;
   font-weight: 700;
 }
+@font-face {
+  font-family: "Dosis";
+  src: url(./dosis/Dosis-Light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url(./dosis/Dosis-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url(./dosis/Dosis-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
