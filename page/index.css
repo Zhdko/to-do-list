@@ -35,6 +35,7 @@
 @import url(../blocks/tasks/tasks.css);
 @import url(../blocks/tasks/__item/tasks__item.css);
 @import url(../blocks/toggle/toggle.css);
+@import url(../blocks/tasks/__buttons/tasks__buttons.css);
 @import url(../blocks/tasks/__title/tasks__title.css);
 
 /* popup-add */

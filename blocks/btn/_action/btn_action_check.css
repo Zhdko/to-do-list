@@ -4,7 +4,6 @@
   background-color: #fff;
   border-radius: 20px;
   transition: box-shadow 0.1s linear;
-  flex-shrink: 0;
 }
 
 .btn_complete {
