@@ -13,22 +13,59 @@ $(document).ready(function() {
 	});
 });
 
-const popup = document.querySelector('.popup');
-const addTask = document.querySelector('.btn_action_add');
-const closeButton = document.querySelector('.btn_action_close');
-const taskName = document.querySelector('.add-tasks__input');
-const taskTitle = document.querySelector('.popup__text_type_task');
+const inputToDo = document.querySelector('[name="name-todo"]');
+const toDoTemplate = document.querySelector('#todo-item').content.querySelector('.tasks__item');
+const tasks = document.querySelector('.tasks');
+const addTaskButton = document.querySelector('[name="add-new-task"]')
+const addTaskForm = document.querySelector('[name="add-task"]')
 
-taskTitle.value = taskName.value
+const toDoList = [
+  {
+    title: 'Work BITCH!'
+  },
+]
 
-function togglePopup() {
-  popup.classList.toggle('popup_opened');
+const createElement = (item) => {
+  const toDoItem = toDoTemplate.cloneNode(true);
+  const toDoTitle = toDoItem.querySelector('.tasks__title');
+  const toDoCheck = toDoItem.querySelector('.btn_action_check')
+  const deleteButton = toDoItem.querySelector('.btn_action_delete');
+  console.log(toDoTitle);
+  toDoTitle.textContent = item.title
+
+  toDoCheck.addEventListener('click', function () {
+    toDoCheck.classList.toggle('btn_complete')
+  })
+  deleteButton.addEventListener('click', () => {
+    deleteButton.closest('.tasks__item').remove()
+  })
+
+  return toDoItem;
 }
 
-addTask.addEventListener('click', togglePopup);
-closeButton.addEventListener('click', togglePopup);
 
-let tasksContainer = document.querySelector('.tasks');
-let addButton = document.querySelector('.form__submit-btn_action_add');
-let submitButton = document.querySelector('.btn_action_submit')
 
+const renderItem = (item) => {
+  const element = createElement(item);
+  tasks.prepend(element);
+}
+
+const handlerAddButton = (evt) => {
+  evt.preventDefault()
+
+  const toDoItem = {
+    title: inputToDo.value,
+  }
+
+  renderItem(toDoItem);
+
+  addTaskForm.reset();
+}
+
+toDoList.forEach(renderItem);
+
+addTaskForm.addEventListener('submit', handlerAddButton);
+
+const handleDeleteButton = (evt) => {
+  evt.target.closest('.card').remove()
+}

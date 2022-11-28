@@ -1,0 +1,8 @@
+.btn_action_delete {
+  width: 18px;
+  height: 22px;
+  background-image: url(../../../image/delete.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}

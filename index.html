@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beggin</title>
+  <title>To Do</title>
   <link rel="stylesheet" href="./page/index.css">
 </head>
 <body class="background">
@@ -31,10 +31,10 @@
         <h1 class="title">Daily</h1>
         <button type="button" class="btn btn_action_edit"></button>
       </div>
-      <fieldset class="add-tasks">
-        <input type="text" placeholder="add new task" class="input add-tasks__input">
-        <button class="btn btn_action_add"></button>
-      </fieldset>
+      <form class="add-tasks" name="add-task">
+        <input type="text" placeholder="add new task" class="input add-tasks__input" name="name-todo" required>
+        <button class="btn btn_action_add" type="submit" name="add-new-task"></button>
+      </form>
       <ul class="list filters">
         <li class="filter">
           <p class="filter__name">to do</p>
@@ -47,88 +47,11 @@
           <label for="filter-checked"></label>
         </li>
       </ul>
-      <ul class="tasks list">
-        <li class="tasks__item">
-          <div class="tasks__header">
-            <h2 class="tasks__title">Сlean the apartment</h2>
-            <label for="toggle" class="toggle">
-              <span class="toggle__switch"></span>
-              <input type="checkbox" class="toggle__checkbox" id="toggle" name="toggle" value="yes">
-            </label>
-          </div>
-          <div class="tasks__point">
-            <div class="tasks__container">
-              <p class="tasks__subtitle">date</p>
-              <p class="tasks__property tasks__date">11.10.2022</p>
-            </div>
-            <div class="tasks__container">
-              <p class="tasks__subtitle">time</p>
-              <p class="tasks__property tasks__time">6:30 am</p>
-            </div>
-          </div>
-        </li>
-        <li class="tasks__item">
-          <div class="tasks__header">
-            <h2 class="tasks__title">Сlean the apartment</h2>
-            <label for="toggle" class="toggle">
-              <span class="toggle__switch"></span>
-              <input type="checkbox" class="toggle__checkbox" id="toggle" name="toggle" value="yes">
-            </label>
-          </div>
-          <div class="tasks__point">
-            <div class="tasks__container">
-              <p class="tasks__subtitle">date</p>
-              <p class="tasks__property tasks__date">11.10.2022</p>
-            </div>
-            <div class="tasks__container">
-              <p class="tasks__subtitle">time</p>
-              <p class="tasks__property tasks__time">6:30 am</p>
-            </div>
-          </div>
-        </li>
-        <li class="tasks__item">
-          <div class="tasks__header">
-            <h2 class="tasks__title">Сlean the apartment</h2>
-            <label for="toggle" class="toggle">
-              <span class="toggle__switch"></span>
-              <input type="checkbox" class="toggle__checkbox" id="toggle" name="toggle" value="yes">
-            </label>
-          </div>
-          <div class="tasks__point">
-            <div class="tasks__container">
-              <p class="tasks__subtitle">date</p>
-              <p class="tasks__property tasks__date">11.10.2022</p>
-            </div>
-            <div class="tasks__container">
-              <p class="tasks__subtitle">time</p>
-              <p class="tasks__property tasks__time">6:30 am</p>
-            </div>
-          </div>
-        </li>
-        <li class="tasks__item">
-          <div class="tasks__header">
-            <h2 class="tasks__title">Сlean the apartment</h2>
-            <label for="toggle" class="toggle">
-              <span class="toggle__switch"></span>
-              <input type="checkbox" class="toggle__checkbox" id="toggle" name="toggle" value="yes">
-            </label>
-          </div>
-          <div class="tasks__point">
-            <div class="tasks__container">
-              <p class="tasks__subtitle">date</p>
-              <p class="tasks__property tasks__date">11.10.2022</p>
-            </div>
-            <div class="tasks__container">
-              <p class="tasks__subtitle">time</p>
-              <p class="tasks__property tasks__time">18:30</p>
-            </div>
-          </div>
-        </li>
-      </ul>
-      <div class="popup popup_action_add">
+      <ul class="tasks list"></ul>
+      <!-- <div class="popup popup_type_edit">
         <div class="popup__container">
           <button type="button" class="btn btn_action_close"></button>
-          <h2 class="popup__title">task</h2>
+          <h2 class="popup__title">Edit profile</h2>
           <form name="edit-form" class="popup__form">
             <fieldset class="popup__input-container">
               <input type="text" name="task-name" class="popup__text popup__text_type_task" placeholder="task name">
@@ -138,9 +61,16 @@
             <button class="btn popup__btn btn_action_submit" type="submit">add</button>
           </form>
         </div>
-      </div>
+      </div> -->
     </main>
   </div>
+  <template id="todo-item">
+    <li class="tasks__item">
+      <h2 class="tasks__title"></h2>
+      <button type="button" class="btn btn_action_check"></button>
+      <button type="button" class="btn btn_action_delete"></button>
+    </li>
+  </template>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="./scripts/script.js"></script>
 </body>

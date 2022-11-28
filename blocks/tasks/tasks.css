@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 730px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 355px));
-  gap: 20px;
+  gap: 15px;
   margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
